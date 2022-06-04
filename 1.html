@@ -3,51 +3,25 @@
 <head>
 <title>수영의 세계 - html</title>
 <meta charset="utf-8">
-<style>
-body{
-  margin:0;
-}
-a {
-  color:black;
-  text-decoration: none;
-}
-.saw{
-  color:gray;
-}
-.active{
-  color:red;
-}
-h1{
-  font-size:45px;
-  text-align: center;
-  border-bottom:1px solid gray;
-  margin:0;
-  padding:20px;
-}
-ol{
-  border-right:1px solid gray;
-  width:100px;
-  margin:0;
-  padding:20px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">수영의 세계</a></h1>
-<ol>
-  <li><a href="1.html" class="saw">자유형</a></li>
-  <li><a href="2.html" class="saw active" id-"active">평영</a></li>
-  <li><a href="3.html">접영</a></li>
-</ol>
-<!--
-<h1><a href="index.html"><font color="pink">김다뿡</font></a></h1>
-<ol>
-<li><a href="1.html"><font color="pink">김다뿡</font></a></li>
-<li><a href="2.html"><font color="pink">양도롯이</font></a></li>
-<li><a href="3.html"><font color="pink">코뚱이</font></a></li>
-</ol>
--->
-<h2>자유형</H2>
-<u>안녕</u> 나는 <strong>김다뿡이</strong>야.넌 누구니?
+<div id = "grid">
+  <ol>
+    <li><a href="1.html">자유형</a></li>
+    <li><a href="2.html">접영</a></li>
+    <li><a href="3.html">평영</a></li>
+  </ol>
+
+  <div id = "article">
+  <h2>자유형</H2>
+    <p>
+      <u>자유형(自由型)</u>은 수영의 경기 종목인 ‘자유형 경기(프리스타일 스위밍, Freestyle swimming)’를 가리키거나,
+      또는 해당 종목에서 가장 널리 쓰이는 ‘크롤 영법(Crawl stroke)’을 관용적으로 이르는 어휘이다.
+      다른 영법이 ‘-영’으로 끝나는 것과 달리, 자유형은 종목명에서 영법 이름이 파생된 것이라 ‘헤엄칠 영(泳)’자를 써서 ‘자유영’이라고 부르는 것은 엄밀히 말해 부적절하다. 다만, 사전에는 ‘자유영’ 역시 중복으로 등록되어 있어, 둘 다 표준어이기는 하다. 네이버 국어사전 또, 한국어에서는 ‘모형 형(型)’을 쓰는 것이 표준어이나, 일본어로는 ‘모양 형(形)’을 쓰는 것이 표준어이기 때문에 번역에 주의가 필요하다.
+    </p>
+  </div>
+</div>
 </body>
 </html>
